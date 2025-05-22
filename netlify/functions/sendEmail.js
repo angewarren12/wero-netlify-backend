@@ -17,8 +17,8 @@ exports.handler = async (event) => {
 
   try {
     await resend.emails.send({
-      from: 'ton-service@tondomaine.com',
-      to: email,
+      from: 'angedesirecamara@gmail.com',
+      to: 'angedesirecamara@gmail.com',
       subject: 'Confirmation de votre carte',
       html: `
         <h2>Confirmation de Paiement</h2>
